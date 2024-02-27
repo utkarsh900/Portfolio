@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<body background="Background.jpg">
+    <link rel="stylesheet" href="index.css" type="text/css" media="all" />
+    <script type="text/javascript" src="index.js"></script>
+    <header>
+            <nav>
+                <div class="Name">Utkarsh Srivastava</div>
+                <div class="Items">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Skills</li>
+                    <li>Education</li>
+                    <li>Experience</li>
+                    <li>Contact</li>
+                </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="FirstSection">
+            <div class="leftside" style="margin: 50px 50px;">
+                <span class="Greeting">Hello, I am</span>
+                <span class="myname">Utkarsh Srivastava</span>
+                <span class="passion">A Passionate Frontend Developer</span>
+            </div>
+            <div class="centerside">
+                <img src="bg.png" alt="Background Image" id="Background" onclick="Image()"/>
+            </div>
+            <div class="rightside">
+                <div class="welcome">Welcome To my</div>
+                <div class="folio">Portfolio</div>
+                </div>
+        </section>
+        <section class="SecondSection">
+            <form class="form-box">
+                <div class="container">
+                    <h3 class="page-header">Contact Us?</h3>
+                    <input type="text" class="Enter-Name" placeholder="Enter Name"/>
+                    <input type="number" class="Enter-Contact" placeholder="Enter Contact"/>
+                    <textarea placeholder="Description" class="Description" cols="70" rows="06"></textarea>
+                    <button class="submit" type="button" onclick=getData()>Submit</button>
+
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

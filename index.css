@@ -1,0 +1,226 @@
+body{
+    margin:0%;
+    padding:0%;
+    background-color: rgb(249, 249, 249);
+    color:whitesmoke;
+}
+nav{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1px 1px;
+    background-color: rgb(37, 37, 92);
+    height: 30px;
+    padding: 5px;
+    border-radius: 4px;
+}
+ nav ul{
+    display: flex;
+    margin:45px;
+    list-style-type: none;
+    font-size: large;
+}
+nav ul li{
+    margin: 40px;
+}
+.Name{
+    margin-left:20px;
+    font-size: 1.5rem;
+}
+.FirstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0px 0px 0px;
+}
+.Greeting{
+    font-size: 50px;
+    color: rgb(25, 25, 101);
+    display: block;
+    margin-bottom: 30px;
+}
+.myname{
+    font-size: 80px;
+    font-weight: 900;
+    color:blueviolet;
+    display:inherit;
+    position: relative;
+    margin-bottom: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.myname:hover{
+    transform:scale3d(1.2);
+    translate: 100px;
+}
+.passion{
+    font-size: 50px;
+    display: block;
+    color: rgb(8, 69, 13);
+    margin-bottom: 30px;
+}
+.welcome{
+    color: rgb(29, 19, 62);
+    display: block;
+    margin: 100px;
+    font-size: 80px;
+}
+.folio{
+    color:rgb(78, 38, 10);
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: black 5px;
+}
+.folio:hover{
+    color: blueviolet;
+    font-size: 4.4vmax;
+}
+.background :hover{
+    opacity: 300%;
+    width:1.04rem;
+}
+.SecondSection{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.Enter-Name{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    border-radius: 4px ;
+    box-shadow: 4px;
+    padding: 5px 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.Enter-Contact{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    text-align: center;
+    border-radius: 4px ;
+    box-shadow: 4px;
+    padding: 5px 5px;
+    margin-bottom: 20px;
+}
+.Description{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    text-wrap:balance;
+    word-wrap: inherit;
+    border-radius: 4px ;
+    box-shadow: 4px;
+    padding: 5px 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 247px;
+    height: 65px;
+}
+.Enter-Name :hover{
+    transform:scale3d(1.2);
+    color: lavender;
+}
+.Enter-Contact :hover{
+    transform:scale3d(1.2);
+    color: lavender;
+}
+.Description :hover{
+    transform:scale3d(1.2);
+    color: lavender;
+}
+.form-box{
+    display: contents;
+    background-color: rgb(13, 190, 203);
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border-style: double;
+}
+.page-header{
+    font-family: serif;
+    background-color: rgb(51, 47, 104);
+    text-align: center;
+    border-radius: 10px;
+    border-color: black;
+}
+.page-header:hover{
+    font-size: 1.5vmax;
+    animation: forwards;
+    cursor: grabbing;
+}
+.Items li:hover{
+    cursor: grab;
+    font-size:1.2vmax;
+    color:aqua;
+    cursor: grabbing;
+}
+.welcome:hover{
+    font-size: 4.4vmax;
+    cursor: grabbing;
+}
+.Greeting:hover{
+    font-size: 4.4vmax;
+    cursor: grabbing;
+}
+.passion:hover{
+    font-size: 3.4vmax;
+    cursor: grabbing;
+}
+.myname:hover{
+    color: rgb(14, 14, 49);
+    mask-image: url(Background.jpg);
+    transform: scale3d(1.2,1.2,1.2);
+    cursor: grabbing;
+}
+.container{
+    border: 2px solid black;
+    border-style: double;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.Name:hover{
+    cursor: grab;
+    font-size: 2.2vmax;
+    color:aqua;
+}
+.submit{
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.submit:disabled {
+  cursor: default;
+}
+
+.submit:focus {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
